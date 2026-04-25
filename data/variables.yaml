@@ -1,0 +1,22 @@
+b_index:
+  label: "Survival Gradient Index"
+  definition: >
+    Composite measure of external pressure intensity.
+    High values correlate with consolidation of external threat narratives
+    and short-term regime stability.
+  range: "0-9"
+  components:
+    - sanction_intensity
+    - military_pressure
+    - external_threat_narrative
+  nonlinear_note: >
+    In this dataset, higher values correlate with reduced protest frequency,
+    contradicting linear destabilization assumptions.
+
+r_fracture:
+  label: "Framework Fracture Index"
+  definition: >
+    Net elite cohesion measure.
+    Positive values indicate necessary conditions for transition.
+  range: "-3 to +3"
+  transition_condition: ">=1 when b_index <=4"
