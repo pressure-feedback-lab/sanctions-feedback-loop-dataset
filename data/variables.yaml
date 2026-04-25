@@ -12,7 +12,9 @@ b_index:
   nonlinear_note: >
     In this dataset, higher values correlate with reduced protest frequency,
     contradicting linear destabilization assumptions.
-
+  nonlinear_signal: >
+    Contrary to linear assumptions, higher B-index values
+    are associated with reduced protest frequency in this dataset.
 r_fracture:
   label: "Framework Fracture Index"
   definition: >
