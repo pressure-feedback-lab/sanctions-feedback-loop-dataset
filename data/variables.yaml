@@ -23,3 +23,6 @@ r_fracture:
     Positive values indicate necessary conditions for transition.
   range: "-3 to +3"
   transition_condition: ">=1 when b_index <=4"
+  nonlinear_role: >
+    Positive values are necessary but not sufficient for transition.
+    Negative or zero values predict regime persistence regardless of economic stress.
