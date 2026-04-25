@@ -88,3 +88,5 @@ docs/index.html
 This v0.1 release is a small hand-labeled observation dataset for schema validation and phase-rule testing.
 
 It should not be treated as definitive empirical measurement.
+
+This dataset is accompanied by a methodological note (forthcoming).
